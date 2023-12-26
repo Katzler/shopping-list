@@ -19,7 +19,7 @@ if ($result->num_rows > 0) {
     }
 } else {
     // Display a message or do nothing if no tasks are found
-    echo "listan är tom!";
+    echo "the list is empty!";
 }
 
 $sql->close();

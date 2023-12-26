@@ -13,8 +13,8 @@
 <div class="container">
     <h1>shopping list</h1>
     <form method="post" action="add_task.php">
-        <input type="text" placeholder="kalaspuffar, mjölk..." name="message" required>
-        <input type="submit" value="lägg till +">
+        <input type="text" placeholder="oreos, milk..." name="message" required>
+        <input type="submit" value="add +">
     </form>
 
     <div class="task"><?php include 'read_task.php'; ?></div>
